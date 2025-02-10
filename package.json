@@ -1,0 +1,21 @@
+{
+    "name": "@noodlestan/designer-boilerplate-minimal",
+    "version": "0.0.7",
+    "description": "Boilerplate for Designer Decisions data validations and transformations.",
+    "author": "Noodlestan Collective",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/noodlestan/designer-boilerplate-minimal.git"
+    },
+    "type": "module",
+    "scripts": {
+        "build:decisions": "node scripts/build-decisions.js",
+        "build": "npm run build:decisions"
+    },
+    "dependencies": {
+        "@noodlestan/designer-decisions": "0.0.12",
+        "@noodlestan/designer-functions": "0.0.12",
+        "@noodlestan/designer-schemas": "0.0.12"
+    }
+}
